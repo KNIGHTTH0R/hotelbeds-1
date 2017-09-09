@@ -1,0 +1,23 @@
+{
+    "name": "ladonlabs/hotelbeds",
+    "description": "An SDK to request hotel availabilities, book hotels, cancel booking and retrieve information from Hotelbeds",
+    "license": "MIT",
+    "keywords": ["SDK","Hotelbeds"],
+    "authors": [
+        {
+            "name": "Antonio Nodal",
+            "email": "nodal.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LadonLabs\\Hotelbeds\\": "src"
+        }
+    }
+}
